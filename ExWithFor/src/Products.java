@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Products {
 
@@ -6,10 +6,12 @@ public class Products {
         String nameProduct;
         float priceCost;
         float priceSells;
+				float otherPrice;
 
         float totalCost = 0;
         float totalSells = 0;
-        Scanner reader = new Scanner(System.in);
+        // Scanner reader = new Scanner(System.in);
+				Scanner reader = new Scanner(System.in)
 
         	int i ;
         for ( i = 0;i < 2; i++){

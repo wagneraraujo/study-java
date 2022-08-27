@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/dev/projetos/estudojava/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/9873a6b5/
+Client	estudojava/src/heranca/Client.java	/^   public Client(String nome, String endereco){$/;"	m	class:Client
+Client	estudojava/src/heranca/Client.java	/^public class Client {$/;"	c
+ClientApp	estudojava/src/heranca/ClientApp.java	/^public class ClientApp {$/;"	c
+ClientPF	estudojava/src/heranca/ClientPF.java	/^    public ClientPF(String nome, String endereco, String cpf){$/;"	m	class:ClientPF
+ClientPF	estudojava/src/heranca/ClientPF.java	/^public class ClientPF {$/;"	c
+ClientPJ	estudojava/src/heranca/ClientPJ.java	/^    public ClientPJ(String nome, String endereco) {$/;"	m	class:ClientPJ
+ClientPJ	estudojava/src/heranca/ClientPJ.java	/^public class ClientPJ extends Client {$/;"	c
+Main	Mc/src/Main.java	/^public class Main {$/;"	c
+Main	numeroPositivoNegativoEx/src/Main.java	/^public class Main {$/;"	c
+Mc	Mc/src/Mc.java	/^public class Mc {$/;"	c
+Pessoa	estudojava/src/Pessoa.java	/^    public Pessoa(int code, String nome){$/;"	m	class:Pessoa
+Pessoa	estudojava/src/Pessoa.java	/^public class Pessoa {$/;"	c
+PessoaApp	estudojava/src/PessoaApp.java	/^public class PessoaApp {$/;"	c
+calculateIMC	Mc/src/Mc.java	/^    public float calculateIMC(){$/;"	m	class:Mc
+cnpj	estudojava/src/heranca/ClientPJ.java	/^    private String cnpj;$/;"	f	class:ClientPJ	file:
+code	estudojava/src/Pessoa.java	/^    private int code;$/;"	f	class:Pessoa	file:
+cpf	estudojava/src/heranca/ClientPF.java	/^    private String cpf;$/;"	f	class:ClientPF	file:
+endereco	estudojava/src/heranca/Client.java	/^   private String endereco;$/;"	f	class:Client	file:
+getCnpj	estudojava/src/heranca/ClientPJ.java	/^    public String getCnpj(){$/;"	m	class:ClientPJ
+getCode	estudojava/src/Pessoa.java	/^    public int getCode(){$/;"	m	class:Pessoa
+getCpf	estudojava/src/heranca/ClientPF.java	/^    public String getCpf(){$/;"	m	class:ClientPF
+getEndereco	estudojava/src/heranca/Client.java	/^    public String getEndereco() {$/;"	m	class:Client
+getNome	estudojava/src/Pessoa.java	/^    public String getNome(){$/;"	m	class:Pessoa
+getNome	estudojava/src/heranca/Client.java	/^    public  String getNome(){$/;"	m	class:Client
+heightPerson	Mc/src/Mc.java	/^    float heightPerson;$/;"	f	class:Mc
+heranca	estudojava/src/heranca/Client.java	/^package heranca;$/;"	p
+heranca	estudojava/src/heranca/ClientApp.java	/^package heranca;$/;"	p
+heranca	estudojava/src/heranca/ClientPF.java	/^package heranca;$/;"	p
+heranca	estudojava/src/heranca/ClientPJ.java	/^package heranca;$/;"	p
+main	Mc/src/Main.java	/^    public static  void  main(String[] args){$/;"	m	class:Main
+main	estudojava/src/PessoaApp.java	/^    public  static  void main(String[] args){$/;"	m	class:PessoaApp
+main	estudojava/src/heranca/ClientApp.java	/^    public static void main(String[] args){$/;"	m	class:ClientApp
+main	numeroPositivoNegativoEx/src/Main.java	/^    public static  void main(String[] args){$/;"	m	class:Main
+nome	estudojava/src/Pessoa.java	/^    private String nome;$/;"	f	class:Pessoa	file:
+nome	estudojava/src/heranca/Client.java	/^   private  String nome;$/;"	f	class:Client	file:
+setCnpj	estudojava/src/heranca/ClientPJ.java	/^    public void setCnpj(String cnpj) {$/;"	m	class:ClientPJ
+setCpf	estudojava/src/heranca/ClientPF.java	/^    public void setCpf(String cpf) {$/;"	m	class:ClientPF
+setEndereco	estudojava/src/heranca/Client.java	/^    public void setEndereco(){$/;"	m	class:Client
+setNome	estudojava/src/Pessoa.java	/^    public void setNome(String nome){$/;"	m	class:Pessoa
+setNome	estudojava/src/heranca/Client.java	/^    public void setNome(){$/;"	m	class:Client
+weightPerson	Mc/src/Mc.java	/^    float weightPerson;$/;"	f	class:Mc
