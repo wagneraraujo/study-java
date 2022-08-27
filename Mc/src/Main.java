@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static  void  main(String[] args){
 
+        //method constructor is call when start object // instance obj
         Mc objectMc = new Mc();
         // Scanner reader = new Scanner(System.in);
 
