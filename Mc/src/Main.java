@@ -18,4 +18,11 @@ public class Main {
         System.out.println("IMC: "+ objectMc.calculateIMC());
 
     }
+
+
+		Scanner reader2 = new Scanner(System.in);
+
+
+
+
 }

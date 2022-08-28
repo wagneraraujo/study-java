@@ -18,6 +18,7 @@ ClientPJ	estudojava/src/heranca/ClientPJ.java	/^    public ClientPJ(String nome,
 ClientPJ	estudojava/src/heranca/ClientPJ.java	/^public class ClientPJ extends Client {$/;"	c
 Main	Mc/src/Main.java	/^public class Main {$/;"	c
 Main	numeroPositivoNegativoEx/src/Main.java	/^public class Main {$/;"	c
+Mc	Mc/src/Mc.java	/^   public Mc( float weightPerson, float heightPerson){$/;"	m	class:Mc
 Mc	Mc/src/Mc.java	/^public class Mc {$/;"	c
 Pessoa	estudojava/src/Pessoa.java	/^    public Pessoa(int code, String nome){$/;"	m	class:Pessoa
 Pessoa	estudojava/src/Pessoa.java	/^public class Pessoa {$/;"	c
@@ -32,9 +33,11 @@ getCnpj	estudojava/src/heranca/ClientPJ.java	/^    public String getCnpj(){$/;"	
 getCode	estudojava/src/Pessoa.java	/^    public int getCode(){$/;"	m	class:Pessoa
 getCpf	estudojava/src/heranca/ClientPF.java	/^    public String getCpf(){$/;"	m	class:ClientPF
 getEndereco	estudojava/src/heranca/Client.java	/^    public String getEndereco() {$/;"	m	class:Client
+getHeightPerson	Mc/src/Mc.java	/^    public float getHeightPerson(){$/;"	m	class:Mc
 getNome	estudojava/src/Pessoa.java	/^    public String getNome(){$/;"	m	class:Pessoa
 getNome	estudojava/src/heranca/Client.java	/^    public  String getNome(){$/;"	m	class:Client
-heightPerson	Mc/src/Mc.java	/^    float heightPerson;$/;"	f	class:Mc
+getWeightPerson	Mc/src/Mc.java	/^    public float getWeightPerson(){$/;"	m	class:Mc
+heightPerson	Mc/src/Mc.java	/^   private float heightPerson;$/;"	f	class:Mc	file:
 heranca	estudojava/src/heranca/Client.java	/^package heranca;$/;"	p
 heranca	estudojava/src/heranca/ClientApp.java	/^package heranca;$/;"	p
 heranca	estudojava/src/heranca/ClientPF.java	/^package heranca;$/;"	p
@@ -46,9 +49,12 @@ main	estudojava/src/heranca/ClientApp.java	/^    public static void main(String[
 main	numeroPositivoNegativoEx/src/Main.java	/^    public static  void main(String[] args){$/;"	m	class:Main
 nome	estudojava/src/Pessoa.java	/^    private String nome;$/;"	f	class:Pessoa	file:
 nome	estudojava/src/heranca/Client.java	/^   private  String nome;$/;"	f	class:Client	file:
+reader2	Mc/src/Main.java	/^		Scanner reader2 = new Scanner(System.in);$/;"	f	class:Main
 setCnpj	estudojava/src/heranca/ClientPJ.java	/^    public void setCnpj(String cnpj) {$/;"	m	class:ClientPJ
 setCpf	estudojava/src/heranca/ClientPF.java	/^    public void setCpf(String cpf) {$/;"	m	class:ClientPF
 setEndereco	estudojava/src/heranca/Client.java	/^    public void setEndereco(){$/;"	m	class:Client
+setHeightPerson	Mc/src/Mc.java	/^    public void setHeightPerson(float heightPerson){$/;"	m	class:Mc
 setNome	estudojava/src/Pessoa.java	/^    public void setNome(String nome){$/;"	m	class:Pessoa
 setNome	estudojava/src/heranca/Client.java	/^    public void setNome(){$/;"	m	class:Client
-weightPerson	Mc/src/Mc.java	/^    float weightPerson;$/;"	f	class:Mc
+setWeightPerson	Mc/src/Mc.java	/^    public void setWeightPerson(float weightPerson){$/;"	m	class:Mc
+weightPerson	Mc/src/Mc.java	/^   private float weightPerson;$/;"	f	class:Mc	file:
