@@ -16,26 +16,41 @@ ClientPF	estudojava/src/heranca/ClientPF.java	/^    public ClientPF(String nome,
 ClientPF	estudojava/src/heranca/ClientPF.java	/^public class ClientPF {$/;"	c
 ClientPJ	estudojava/src/heranca/ClientPJ.java	/^    public ClientPJ(String nome, String endereco) {$/;"	m	class:ClientPJ
 ClientPJ	estudojava/src/heranca/ClientPJ.java	/^public class ClientPJ extends Client {$/;"	c
+Employee	studyHeranca/src/Employee.java	/^public class Employee {$/;"	c
 Main	Mc/src/Main.java	/^public class Main {$/;"	c
 Main	numeroPositivoNegativoEx/src/Main.java	/^public class Main {$/;"	c
+Main	studyHeranca/src/Main.java	/^public class Main {$/;"	c
 Mc	Mc/src/Mc.java	/^   public Mc( float weightPerson, float heightPerson){$/;"	m	class:Mc
 Mc	Mc/src/Mc.java	/^public class Mc {$/;"	c
+Person	studyHeranca/src/Person.java	/^public class Person {$/;"	c
 Pessoa	estudojava/src/Pessoa.java	/^    public Pessoa(int code, String nome){$/;"	m	class:Pessoa
 Pessoa	estudojava/src/Pessoa.java	/^public class Pessoa {$/;"	c
 PessoaApp	estudojava/src/PessoaApp.java	/^public class PessoaApp {$/;"	c
 Products	ExWithFor/src/Products.java	/^public class Products {$/;"	c
+SalesMan	studyHeranca/src/SalesMan.java	/^    public SalesMan(){$/;"	m	class:SalesMan
+SalesMan	studyHeranca/src/SalesMan.java	/^public class SalesMan extends Employee {$/;"	c
+birthday	studyHeranca/src/Employee.java	/^    private Date birthday;$/;"	f	class:Employee	file:
+calcWages	studyHeranca/src/SalesMan.java	/^    public float calcWages(){$/;"	m	class:SalesMan
 calculateIMC	Mc/src/Mc.java	/^    public float calculateIMC(){$/;"	m	class:Mc
 cnpj	estudojava/src/heranca/ClientPJ.java	/^    private String cnpj;$/;"	f	class:ClientPJ	file:
 code	estudojava/src/Pessoa.java	/^    private int code;$/;"	f	class:Pessoa	file:
+commissionPerItems	studyHeranca/src/SalesMan.java	/^    private float commissionPerItems;$/;"	f	class:SalesMan	file:
 cpf	estudojava/src/heranca/ClientPF.java	/^    private String cpf;$/;"	f	class:ClientPF	file:
+cpf	studyHeranca/src/Employee.java	/^    private String cpf;$/;"	f	class:Employee	file:
 endereco	estudojava/src/heranca/Client.java	/^   private String endereco;$/;"	f	class:Client	file:
+getBirthday	studyHeranca/src/Employee.java	/^    public Date getBirthday() {$/;"	m	class:Employee
 getCnpj	estudojava/src/heranca/ClientPJ.java	/^    public String getCnpj(){$/;"	m	class:ClientPJ
 getCode	estudojava/src/Pessoa.java	/^    public int getCode(){$/;"	m	class:Pessoa
+getCommissionPerItems	studyHeranca/src/SalesMan.java	/^    public float getCommissionPerItems() {$/;"	m	class:SalesMan
 getCpf	estudojava/src/heranca/ClientPF.java	/^    public String getCpf(){$/;"	m	class:ClientPF
+getCpf	studyHeranca/src/Employee.java	/^    public String getCpf() {$/;"	m	class:Employee
 getEndereco	estudojava/src/heranca/Client.java	/^    public String getEndereco() {$/;"	m	class:Client
 getHeightPerson	Mc/src/Mc.java	/^    public float getHeightPerson(){$/;"	m	class:Mc
+getName	studyHeranca/src/Employee.java	/^    public String getName() {$/;"	m	class:Employee
 getNome	estudojava/src/Pessoa.java	/^    public String getNome(){$/;"	m	class:Pessoa
 getNome	estudojava/src/heranca/Client.java	/^    public  String getNome(){$/;"	m	class:Client
+getTotalItemsSales	studyHeranca/src/SalesMan.java	/^    public int getTotalItemsSales() {$/;"	m	class:SalesMan
+getWages	studyHeranca/src/Employee.java	/^    public float getWages() {$/;"	m	class:Employee
 getWeightPerson	Mc/src/Mc.java	/^    public float getWeightPerson(){$/;"	m	class:Mc
 heightPerson	Mc/src/Mc.java	/^   private float heightPerson;$/;"	f	class:Mc	file:
 heranca	estudojava/src/heranca/Client.java	/^package heranca;$/;"	p
@@ -47,14 +62,24 @@ main	Mc/src/Main.java	/^    public static  void  main(String[] args){$/;"	m	clas
 main	estudojava/src/PessoaApp.java	/^    public  static  void main(String[] args){$/;"	m	class:PessoaApp
 main	estudojava/src/heranca/ClientApp.java	/^    public static void main(String[] args){$/;"	m	class:ClientApp
 main	numeroPositivoNegativoEx/src/Main.java	/^    public static  void main(String[] args){$/;"	m	class:Main
+main	studyHeranca/src/Main.java	/^    public static void main(String[] args){$/;"	m	class:Main
+name	studyHeranca/src/Employee.java	/^    private String name;$/;"	f	class:Employee	file:
 nome	estudojava/src/Pessoa.java	/^    private String nome;$/;"	f	class:Pessoa	file:
 nome	estudojava/src/heranca/Client.java	/^   private  String nome;$/;"	f	class:Client	file:
 reader2	Mc/src/Main.java	/^		Scanner reader2 = new Scanner(System.in);$/;"	f	class:Main
+setBirthday	studyHeranca/src/Employee.java	/^    public void setBirthday(Date birthday) {$/;"	m	class:Employee
 setCnpj	estudojava/src/heranca/ClientPJ.java	/^    public void setCnpj(String cnpj) {$/;"	m	class:ClientPJ
+setCommissionPerItems	studyHeranca/src/SalesMan.java	/^    public void setCommissionPerItems(float commissionPerItems) {$/;"	m	class:SalesMan
 setCpf	estudojava/src/heranca/ClientPF.java	/^    public void setCpf(String cpf) {$/;"	m	class:ClientPF
+setCpf	studyHeranca/src/Employee.java	/^    public void setCpf(String cpf) {$/;"	m	class:Employee
 setEndereco	estudojava/src/heranca/Client.java	/^    public void setEndereco(){$/;"	m	class:Client
 setHeightPerson	Mc/src/Mc.java	/^    public void setHeightPerson(float heightPerson){$/;"	m	class:Mc
+setName	studyHeranca/src/Employee.java	/^    public void setName(String name) {$/;"	m	class:Employee
 setNome	estudojava/src/Pessoa.java	/^    public void setNome(String nome){$/;"	m	class:Pessoa
 setNome	estudojava/src/heranca/Client.java	/^    public void setNome(){$/;"	m	class:Client
+setTotalItemsSales	studyHeranca/src/SalesMan.java	/^    public void setTotalItemsSales(int totalItemsSales) {$/;"	m	class:SalesMan
+setWages	studyHeranca/src/Employee.java	/^    public void setWages(float wages) {$/;"	m	class:Employee
 setWeightPerson	Mc/src/Mc.java	/^    public void setWeightPerson(float weightPerson){$/;"	m	class:Mc
+totalItemsSales	studyHeranca/src/SalesMan.java	/^    private int totalItemsSales;$/;"	f	class:SalesMan	file:
+wages	studyHeranca/src/Employee.java	/^    private float wages;$/;"	f	class:Employee	file:
 weightPerson	Mc/src/Mc.java	/^   private float weightPerson;$/;"	f	class:Mc	file:

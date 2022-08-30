@@ -38,4 +38,5 @@ public class Employee {
     public void setWages(float wages) {
         this.wages = wages;
     }
+
 }

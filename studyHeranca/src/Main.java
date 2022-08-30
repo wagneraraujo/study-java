@@ -13,11 +13,5 @@ public class Main {
 
         System.out.println("The salary of " + sellsMan.getName() + " is :"+ sellsMan.calcWages() );
 
-
-//        sellsMan.calcWages();
-
-
-
-
     }
 }
